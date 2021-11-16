@@ -1,17 +1,8 @@
 
-const navButton = document.querySelector('.nav-button');
+// Select elements
+const selectElement = (element) => document.querySelector(element);
 
-// List of Navigation links
-const navLinks = document.querySelectorAll('.nav__link')
-
-// Opening
-navButton.addEventListener('click', () => {
-	document.body.classList.toggle('nav-open');
-})
-
-// Closing when a link is clicked
-navLinks.forEach(link => {
-	link.addEventListener('click', () => {
-		document.body.classList.remove('nav-open');
-	})
+selectElement('.hamburger').addEventListener('click', () => {
+	selectElement('.hamburger').classList.toggle('active');
+	selectElement('.nav__list').classList.toggle('active');
 })

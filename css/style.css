@@ -90,114 +90,177 @@ strong{
 	transform: scale(1.1);
 }
 
-
-
-
-
-
 /*Header*/
 
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
+header{
+	width: 100%;
+	background-color: var(--clr-dark);
 }
 
-.nav {
-    position: fixed;
-    background: var(--clr-dark);
-    color: var(--clr-light);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-    
-    transform: translateX(100%);
-    transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
+.container{
+	width: 100%;
+	max-width: 120rem;
+	margin: 0 auto;
+	padding: 0 1.5rem;
 }
 
-.nav__list {
-    list-style: none;
-    display: flex;
-    height: 100%;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+nav{
+	width: 100%;
+	height: 5.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
-.nav__link {
-    color: inherit;
-    font-weight: var(--fw-bold);
-    font-size: var(--fs-h2);
-    text-decoration: none;
+.nav__list{
+	display: flex;
+	list-style: none;
 }
 
-.nav__link:hover {
-    color: var(--clr-secondary);
+.nav__link{
+	font-size: var(--fs-h3);
+	font-weight: var(--fw-bold);
+	text-decoration: none;
+	display: block;
+	margin: 0 2rem;
+	color: var(--clr-light);
+	transform: scale(0);
+	transition: transform 650ms;
 }
 
-.nav-button{
-	padding: .5em;
-	background: transparent;
-	border: 0;
-	cursor: pointer;
+.nav__item{
+	position: relative;
+	line-height: 3rem;
+	transition-delay: .5s;
+	visibility: hidden;
+}
+
+.nav__item::before{
+	content: "";
 	position: absolute;
-	right: 1em;
-	top: 1em;
-	z-index: 1000;
+	width: 100%;
+	height: 2px;
+	background-color: var(--clr-secondary);
+	left: 0;
+	bottom: 0;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 650ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.nav-open .nav{
-	transform: translateX(0);
+.nav__item:hover::before{
+	transform: scaleX(1);
+	transform-origin: left;
 }
 
-.nav-open .nav-button{
-	position: fixed;
+/*Menu*/
+.hamburger{
+	width: 3.6rem;
+	height: 1.8rem;
+	position: relative;
+	cursor: pointer;
+	line-height: 5rem;
+	z-index: 1500;
 }
 
-.nav-open .menu{
-	transform: rotate(.625turn);
+.hamburger .hamburger__line{
+	width: 100%;
+	height: 2px;
+	background-color: var(--clr-secondary);
+	position: absolute;
+	display: block;
+	right: 0;
+	transition: all 650ms;
 }
 
-.nav-open .menu::before{
-	transform: rotate(90deg) translateX(-6px);
+.hamburger .hamburger__line:nth-child(1){
+	top: 0;
 }
 
-.nav-open .menu::after{
+.hamburger .hamburger__line:nth-child(2){
+	top: 50%;
+	margin-top: -1px;
+	width: 2.8rem;
+}
+
+.hamburger .hamburger__line:nth-child(3){
+	top: 100%;
+	margin-top: -2px;
+	width: 2rem;
+}
+
+.hamburger.active .hamburger__line:nth-child(1){
+	transform: translateY(.8rem) rotate(45deg);
+	width: 2rem;
+}
+
+.hamburger.active .hamburger__line:nth-child(2){
 	opacity: 0;
 }
 
-.menu{
-	display: block;
-	position: relative;
+.hamburger.active .hamburger__line:nth-child(3){
+	transform: translateY(-.8rem) rotate(-45deg);
+	width: 2rem;
 }
 
-.menu,
-.menu::before,
-.menu::after{
-	background: var(--clr-secondary);
-	width: 2em;
-	height: 3px;
-	border-radius: 1em;
-	transition: transform 250ms ease-in-out;
+.nav__list.active .nav__link{
+	transform: scale(1);
 }
 
-.menu::before,
-.menu::after{
-	content: '';
-	position: absolute;
-	left: 0;
-	right: 0;
+.nav__list.active .nav__item{
+	transition-delay: initial;
+	visibility: visible;
 }
 
-.menu::before {
-	top: 6px;
+.nav__list.active .nav__item:nth-child(1) .nav__link{
+	transition-delay: .4s;
 }
 
-.menu::after{
-	bottom: 6px;
+.nav__list.active .nav__item:nth-child(2) .nav__link{
+	transition-delay: .3s;
 }
 
+.nav__list.active .nav__item:nth-child(3) .nav__link{
+	transition-delay: .2s;
+}
+
+.nav__list.active .nav__item:nth-child(4) .nav__link{
+	transition-delay: .1s;
+}
+
+/*Reverse*/
+
+.nav__list .nav__item:nth-child(1) .nav__link{
+	transition-delay: .1s;
+}
+
+.nav__list .nav__item:nth-child(2) .nav__link{
+	transition-delay: .2s;
+}
+
+.nav__list .nav__item:nth-child(3) .nav__link{
+	transition-delay: .3s;
+}
+
+.nav__list .nav__item:nth-child(4) .nav__link{
+	transition-delay: .4s;
+}
+
+@media screen and (max-width: 800px){
+	.nav__list{
+		width: 100%;
+		height: 100vh;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-color: var(--clr-dark);
+		position: fixed;
+		left: 0;
+		bottom: -100vh;
+		transition: bottom 650ms;
+	}
+	
+	.nav__list.active{
+		bottom: 0;
+	}
+}
