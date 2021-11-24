@@ -11,7 +11,7 @@
 	--ff-primary: 'Poppins', sans-serif; 
 
 	/*Font Weight*/
-	--fw-ref: 400;
+	--fw-reg: 200;
 	--fw-bold: 900;
 
 	/*Font Colour*/
@@ -45,7 +45,7 @@ html {
 	scroll-behavior: smooth;
 }
 
-body {
+body{
     background: var(--clr-light);
     color: var(--clr-dark);
     margin: 0;
@@ -54,11 +54,11 @@ body {
     line-height: 1.5;
 }
 
-section {
+section{
     padding: 5em 2em;
 }
 
-img {
+img{
     display: block;
     max-width: 100%;
 }
@@ -88,6 +88,34 @@ strong{
 
 .btn:hover{
 	transform: scale(1.1);
+}
+
+h1,
+h2,
+h3{
+	line-height: 1;
+	margin: 0;
+}
+
+h1{
+	font-size: var(--fs-h1)
+}
+
+h2{
+	font-size: var(--fs-h2)
+}
+
+h3{
+	font-size: var(--fs-h3)
+}
+
+.section__title{
+	margin-bottom: .25em;
+}
+
+.section__subtitle{
+	margin: 0;
+	font-size: var(--fs-h3);
 }
 
 /*Header*/
@@ -272,5 +300,63 @@ nav{
 	.nav__item{
 	line-height: 5rem;
 	left: -3%;
+	}
+}
+
+/*About Me*/
+
+.about-me{
+	position: relative;
+}
+
+.section__title--about_me{
+	font-weight: var(--fw-reg);
+}
+
+.section__title--about_me strong{
+	display: block;
+}
+
+.section__subtitle--about_me{
+	background: var(--clr-secondary);
+	padding: .25em 1em;
+	font-family: var(--ff-primary);
+	margin-bottom: 1em;
+	display: inline-block;
+	max-width: 40em; /*To change the size of the blue text box*/
+}
+
+.about-me__img{
+	box-shadow: var(--bs);
+	max-width: 28rem; /*To change photo size*/
+}
+
+@media (min-width: 625px){
+	.about-me {
+		display: grid;
+		width: min-content;
+		margin: 0 auto;
+		grid-column-gap: 1em;
+		grid-template-areas:
+			"img title"
+			"img subtitle";
+		grid-template-columns: min-content max-content;
+	}
+	
+	.about-me__img{
+		grid-area: img;
+		min-width: 250px;
+		position: relative;
+		z-index: 2;
+	}
+	
+	.section__subtitle--about_me{
+		align-self: start;
+		grid-column: -1 / 1; 
+		grid-row: 2;
+		text-align: right;
+		position: relative;
+		left: -1.5em;
+		width: calc(100% + 1.5em);
 	}
 }
