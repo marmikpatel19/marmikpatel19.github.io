@@ -322,7 +322,7 @@ nav{
 	padding: .25em 1em;
 	font-family: var(--ff-primary);
 	margin-bottom: 1em;
-	display: inline-block;
+	display: inline-block;  
 	max-width: 40em; /*To change the size of the blue text box*/
 }
 
