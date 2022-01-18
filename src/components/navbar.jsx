@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./navbar.css";
+import "../styling/navbar.css";
 
 function Navbar() {
   /*menu toggle button */
@@ -19,7 +19,7 @@ function Navbar() {
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
           <ul className={click ? "navbar-menu active" : "navbar-menu"}>
-            <li className="navbar-item">
+            <li className="navbar-item" id="projects">
               <Link
                 to="/projects"
                 className="navbar-links"
@@ -28,7 +28,7 @@ function Navbar() {
                 Projects
               </Link>
             </li>
-            <li className="navbar-item">
+            <li className="navbar-item" id="experiences">
               <Link
                 to="/experiences"
                 className="navbar-links"
@@ -37,7 +37,7 @@ function Navbar() {
                 Experiences & Education
               </Link>
             </li>
-            <li className="navbar-item">
+            <li className="navbar-item" id="management">
               <Link
                 to="/management"
                 className="navbar-links"
