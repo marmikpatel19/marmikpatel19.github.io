@@ -9,6 +9,17 @@ const titles = [
   "an environmentalist",
 ];
 
+const space = "\u00A0";
+
+//&nbsp's for move the introduction text left
+function getSpaces() {
+  var spaces = [];
+  for (var i = 0; i < 37; i++) {
+    spaces.push(space);
+  }
+  return <h1>{spaces}</h1>;
+}
+
 function Aboutme() {
   return (
     <>
@@ -23,7 +34,8 @@ function Aboutme() {
 
         {/*Introduction text*/}
         <h1 className="aboutme-introduction">
-          Hey, I'm <strong>Marmik Patel</strong>.
+          Hey, I'm <strong className="title">Marmik Patel</strong>
+          {getSpaces()}
         </h1>
 
         {/*Discription*/}
