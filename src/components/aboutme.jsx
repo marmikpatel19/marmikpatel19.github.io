@@ -11,14 +11,17 @@ const titles = [
 
 const space = "\u00A0";
 
+const introduction = "Hey, \nI'm";
+
 //&nbsp's for move the introduction text left
+/*
 function getSpaces() {
   var spaces = [];
-  for (var i = 0; i < 37; i++) {
+  for (var i = 0; i < 33; i++) {
     spaces.push(space);
   }
   return <h1>{spaces}</h1>;
-}
+}*/
 
 function Aboutme() {
   return (
@@ -34,14 +37,14 @@ function Aboutme() {
 
         {/*Introduction text*/}
         <h1 className="aboutme-introduction">
-          Hey, I'm <strong className="title">Marmik Patel</strong>
-          {getSpaces()}
+          {introduction} <strong className="title">Marmik Patel</strong>
+          {/*{getSpaces()}*/}
         </h1>
 
         {/*Discription*/}
         <p className="aboutme-discription">
-          A computer science student that applies software engineering to issues
-          important to him!
+          A CS student that leverages software engineering to develop impactful
+          solutions!
         </p>
 
         {/*Links/Icons*/}

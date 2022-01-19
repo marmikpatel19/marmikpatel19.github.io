@@ -4,6 +4,7 @@
 
   /*Font Weight*/
   --fw-reg: 200;
+  --fw-med: 500;
   --fw-bold: 900;
 
   /*Font Colour*/
@@ -12,7 +13,7 @@
   --clr-secondary: #3ae5ff;
 
   /*Font Sizes*/
-  --fs-h1: 3rem;
+  --fs-h1: 3.5rem;
   --fs-h2: 1.4rem;
   --fs-h3: 1.25rem;
   --fs-body: 1rem;

@@ -1,0 +1,75 @@
+.aboutme-container {
+  max-width: fit-content;
+  margin: auto;
+}
+
+.aboutme-photo,
+.aboutme-discription {
+  border: solid;
+  border-top: 0;
+  border-right: 0;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+.aboutme-photo {
+  box-shadow: var(--bs);
+  text-align: center;
+  width: 448px;
+  margin: auto;
+  display: block;
+  margin-top: 30px;
+  margin-right: 470px;
+  border-color: var(--clr-secondary);
+}
+
+.aboutme-introduction {
+  font-weight: var(--fw-med);
+  font-size: var(--fs-h1);
+  color: var(--clr-dark);
+  margin-top: -450px;
+  white-space: pre-wrap;
+  margin-left: 470px;
+}
+
+.aboutme-discription {
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-med);
+  color: var(--clr-dark);
+  background: var(--clr-secondary);
+  padding: 0.25em 1em;
+  margin-bottom: 1em;
+  display: inline-block;
+  max-width: 46em;
+  margin-top: 20px;
+  margin-left: -50px;
+  position: absolute;
+  padding-left: 34%;
+  z-index: -1;
+  border-color: var(--clr-dark);
+}
+
+.aboutme-links {
+  list-style-type: none;
+  margin-left: 440px;
+  margin-top: 230px;
+}
+
+.aboutme-link {
+  display: inline-block;
+  padding-right: 1em;
+  font-size: 30px;
+  color: var(--clr-dark);
+}
+
+.title:hover {
+  color: var(--clr-secondary);
+  cursor: pointer;
+}
+
+.aboutme-photo:hover,
+.aboutme-link:hover {
+  transform: scale(1.05);
+  transition: all 200ms ease-in;
+  color: var(--clr-secondary);
+}
