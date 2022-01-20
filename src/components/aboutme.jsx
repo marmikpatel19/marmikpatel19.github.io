@@ -1,29 +1,47 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "../styling/aboutme.css";
-import { Link } from "react-router-dom";
+import { init } from "ityped";
 
-const titles = [
+const asd = [
   "Marmik Patel",
   "a software engineer",
   "an entrepreneur",
   "an environmentalist",
 ];
 
-const space = "\u00A0";
+//const space = "\u00A0";
 
-const introduction = "Hey, \nI'm";
+const introduction = "Hey,\n";
 
 //&nbsp's for move the introduction text left
 /*
 function getSpaces() {
   var spaces = [];
-  for (var i = 0; i < 33; i++) {
+  for (var i = 0; i < 0; i++) {
     spaces.push(space);
   }
   return <h1>{spaces}</h1>;
 }*/
 
 function Aboutme() {
+  const titles = useRef();
+
+  //ityped animation
+  useEffect(() => {
+    init(titles.current, {
+      showCursor: false,
+      backDelay: 950,
+      backSpeed: 40,
+      showCursor: true,
+      strings: [
+        "Marmik Patel",
+        "a software engineer",
+        "an entrepreneur",
+        "an environmentalist",
+      ],
+    });
+  }, []);
+
   return (
     <>
       <div className="aboutme-container">
@@ -37,8 +55,11 @@ function Aboutme() {
 
         {/*Introduction text*/}
         <h1 className="aboutme-introduction">
-          {introduction} <strong className="title">Marmik Patel</strong>
-          {/*{getSpaces()}*/}
+          {introduction}
+          <span className="im">I'm </span>
+          <strong className="title">
+            <span ref={titles}></span>
+          </strong>
         </h1>
 
         {/*Discription*/}
