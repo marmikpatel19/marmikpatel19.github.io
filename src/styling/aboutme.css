@@ -152,3 +152,160 @@
     padding-left: 39%;
   }
 }
+
+/****************/
+@media screen and (max-width: 1320px) {
+  .aboutme-discription {
+    padding-left: 39.5%;
+  }
+  .aboutme-photo {
+    margin-right: 730px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .aboutme-discription {
+    padding-left: 40%;
+  }
+  .aboutme-photo {
+    margin-right: 720px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .aboutme-discription {
+    padding-left: 40.5%;
+  }
+  .aboutme-photo {
+    margin-right: 700px;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .aboutme-discription {
+    padding-left: 41%;
+  }
+  .aboutme-photo {
+    margin-right: 680px;
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .aboutme-discription {
+    padding-left: 41.5%;
+  }
+  .aboutme-photo {
+    margin-right: 660px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .aboutme-discription {
+    padding-left: 42%;
+  }
+  .aboutme-photo {
+    margin-right: 640px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutme-discription {
+    padding-left: 42.5%;
+  }
+  .aboutme-photo {
+    margin-right: 620px;
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  .aboutme-discription {
+    padding-left: 43%;
+  }
+  .aboutme-photo {
+    margin-right: 600px;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .aboutme-photo {
+    margin-right: 620px;
+  }
+  .aboutme-container {
+    margin-left: -20px;
+  }
+  .aboutme-introduction {
+    margin-left: 570px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .aboutme-photo {
+    margin-right: 640px;
+  }
+  .aboutme-container {
+    margin-left: -40px;
+  }
+  .aboutme-introduction {
+    margin-left: 560px;
+  }
+  .aboutme-discription {
+    padding-left: 43.5%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .aboutme-photo {
+    margin-right: 640px;
+  }
+  .aboutme-container {
+    margin-left: -50px;
+  }
+  .aboutme-introduction {
+    margin-left: 550px;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .aboutme-photo {
+    margin-right: 620px;
+  }
+  .aboutme-container {
+    margin-left: -50px;
+  }
+  .aboutme-introduction {
+    margin-left: 560px;
+  }
+  .aboutme-discription {
+    padding-left: 44%;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .aboutme-photo {
+    margin-right: 630px;
+  }
+  .aboutme-container {
+    margin-left: -60px;
+  }
+  .aboutme-introduction {
+    margin-left: 540px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .aboutme-photo {
+    margin-right: 600px;
+  }
+  .aboutme-container {
+    margin-left: -50px;
+  }
+  .aboutme-introduction {
+    margin-left: 535px;
+  }
+  .aboutme-discription {
+    padding-left: 44.5%;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+}
