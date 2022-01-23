@@ -91,3 +91,64 @@
 .im {
   font-size: var(--fs-h2);
 }
+
+/*Media queries for discription padding*/
+@media screen and (max-width: 1520px) {
+  .aboutme-discription {
+    padding-left: 34.5%;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .aboutme-discription {
+    padding-left: 35%;
+  }
+}
+
+@media screen and (max-width: 1480px) {
+  .aboutme-discription {
+    padding-left: 35.5%;
+  }
+}
+
+@media screen and (max-width: 1460px) {
+  .aboutme-discription {
+    padding-left: 36%;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .aboutme-discription {
+    padding-left: 36.5%;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+  .aboutme-discription {
+    padding-left: 37%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .aboutme-discription {
+    padding-left: 37.5%;
+  }
+}
+
+@media screen and (max-width: 1380px) {
+  .aboutme-discription {
+    padding-left: 38%;
+  }
+}
+
+@media screen and (max-width: 1360px) {
+  .aboutme-discription {
+    padding-left: 38.5%;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  .aboutme-discription {
+    padding-left: 39%;
+  }
+}
