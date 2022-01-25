@@ -153,7 +153,8 @@
   }
 }
 
-/****************/
+/*Below this, the photo is also adjusted*/
+
 @media screen and (max-width: 1320px) {
   .aboutme-discription {
     padding-left: 39.5%;
@@ -307,5 +308,239 @@
   }
 }
 
+/*Layout Switch*/
+
 @media screen and (max-width: 1090px) {
+  .aboutme-photo {
+    margin: auto;
+    margin-top: 160px;
+  }
+  .aboutme-introduction {
+    margin-left: 310px;
+    margin-top: -640px;
+  }
+  .aboutme-discription {
+    margin-top: 460px;
+    margin-left: 290px;
+    max-width: 24em;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .aboutme-links {
+    margin-top: 600px;
+  }
+}
+
+/*Below this, the introduction and discription are adjusted*/
+
+@media screen and (max-width: 1080px) {
+  .aboutme-introduction {
+    margin-left: 305px;
+  }
+  .aboutme-discription {
+    margin-left: 285px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .aboutme-introduction {
+    margin-left: 300px;
+  }
+  .aboutme-discription {
+    margin-left: 280px;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .aboutme-introduction {
+    margin-left: 295px;
+  }
+  .aboutme-discription {
+    margin-left: 275px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .aboutme-introduction {
+    margin-left: 290px;
+  }
+  .aboutme-discription {
+    margin-left: 270px;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .aboutme-introduction {
+    margin-left: 285px;
+  }
+  .aboutme-discription {
+    margin-left: 265px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .aboutme-introduction {
+    margin-left: 280px;
+  }
+  .aboutme-discription {
+    margin-left: 260px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .aboutme-introduction {
+    margin-left: 275px;
+  }
+  .aboutme-discription {
+    margin-left: 255px;
+  }
+}
+
+@media screen and (max-width: 1010px) {
+  .aboutme-introduction {
+    margin-left: 270px;
+  }
+  .aboutme-discription {
+    margin-left: 250px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .aboutme-introduction {
+    margin-left: 265px;
+  }
+  .aboutme-discription {
+    margin-left: 245px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .aboutme-introduction {
+    margin-left: 260px;
+  }
+  .aboutme-discription {
+    margin-left: 240px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .aboutme-introduction {
+    margin-left: 255px;
+  }
+  .aboutme-discription {
+    margin-left: 235px;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  .aboutme-introduction {
+    margin-left: 250px;
+  }
+  .aboutme-discription {
+    margin-left: 230px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .aboutme-introduction {
+    margin-left: 245px;
+  }
+  .aboutme-discription {
+    margin-left: 225px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .aboutme-introduction {
+    margin-left: 240px;
+  }
+  .aboutme-discription {
+    margin-left: 220px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .aboutme-introduction {
+    margin-left: 235px;
+  }
+  .aboutme-discription {
+    margin-left: 215px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .aboutme-introduction {
+    margin-left: 230px;
+  }
+  .aboutme-discription {
+    margin-left: 210px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .aboutme-introduction {
+    margin-left: 225px;
+  }
+  .aboutme-discription {
+    margin-left: 205px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .aboutme-introduction {
+    margin-left: 220px;
+  }
+  .aboutme-discription {
+    margin-left: 200px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .aboutme-introduction {
+    margin-left: 215px;
+  }
+  .aboutme-discription {
+    margin-left: 195px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .aboutme-introduction {
+    margin-left: 210px;
+  }
+  .aboutme-discription {
+    margin-left: 190px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .aboutme-introduction {
+    margin-left: 205px;
+  }
+  .aboutme-discription {
+    margin-left: 185px;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .aboutme-introduction {
+    margin-left: 200px;
+  }
+  .aboutme-discription {
+    margin-left: 180px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .aboutme-introduction {
+    margin-left: 195px;
+  }
+  .aboutme-discription {
+    margin-left: 175px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .aboutme-introduction {
+    margin-left: 190px;
+  }
+  .aboutme-discription {
+    margin-left: 170px;
+  }
 }
