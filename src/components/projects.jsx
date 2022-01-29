@@ -12,7 +12,7 @@ function Projects() {
           alt="-"
           title=""
           discription=""
-          github=""
+          link=""
           sideLeft="false"
         />
         <Project
@@ -20,7 +20,7 @@ function Projects() {
           alt="-"
           title=""
           discription=""
-          github=""
+          link=""
           sideLeft="true"
         />
         <Project
@@ -28,7 +28,7 @@ function Projects() {
           alt="-"
           title=""
           discription=""
-          github=""
+          link=""
           sideLeft="false"
         />
       </div>
