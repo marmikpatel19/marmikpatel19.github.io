@@ -1,0 +1,113 @@
+.section-title {
+  color: var(--clr-dark);
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-bold);
+  margin: 6% auto 4% 6%;
+}
+
+.project {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: -30px;
+}
+
+.project-photo {
+  width: 600px;
+  box-shadow: var(--bs);
+  margin-left: -20%;
+  margin-bottom: 200px;
+  z-index: -1;
+}
+
+.text {
+  background-color: var(--clr-dark);
+  max-width: 450px;
+  min-width: 450px;
+  margin: auto;
+  margin-top: -380px;
+  margin-left: 50%;
+  color: var(--clr-light);
+  padding: 2px 20px 2px 20px;
+  box-shadow: var(--bs);
+  z-index: 2;
+  position: relative;
+}
+
+.project-title {
+  color: var(--clr-secondary);
+  margin-right: -60%;
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-bold);
+}
+
+.project-discription {
+  font-size: var(--fs-h5);
+  font-weight: var(--fw-med);
+  margin-bottom: -1%;
+}
+
+#student > .text > .project-discription {
+  margin-bottom: 3%;
+}
+
+#bookbees > .text {
+  margin-top: -365px;
+}
+
+#envirosearch > .text {
+  margin-top: -390px;
+}
+
+#student > .text > .project-title {
+  margin-right: -26%;
+}
+
+#bookbees > .text > .project-title {
+  margin-right: -50%;
+}
+
+#envirosearch > .text > .project-title {
+  margin-right: -50%;
+}
+
+#link1,
+#link2 {
+  font-size: 18px;
+  color: var(--clr-light);
+}
+
+#link1 {
+  padding-right: 12px;
+}
+
+#bookbees > .text > #link2,
+#bookbees > .text > #link1 {
+  position: relative;
+  left: 45.5%;
+  bottom: 91px;
+}
+
+#envirosearch > .text > #link1 {
+  position: relative;
+  left: 48%;
+  bottom: 114px;
+}
+
+#student > .text > #link2,
+#student > .text > #link1,
+#envirosearch > .text > #link2 {
+  display: none;
+}
+
+#link1:hover,
+#link2:hover {
+  transform: scale(1.05);
+  transition: all 200ms ease-in;
+  color: var(--clr-secondary);
+}
+
+.project-photo:hover {
+  transform: scale(1.05);
+  transition: all 200ms ease-in;
+}

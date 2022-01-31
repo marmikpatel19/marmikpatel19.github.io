@@ -12,25 +12,29 @@ function Projects() {
           src="images/Student-Residence-System.png"
           alt="Image of Marmik's Student Residence System project"
           title="Student Residence System"
-          discription="An object-oriented university residence system developed using Java. It was constructed through six application versions with various software design patterns and includes a GUI for an administrator to personalize the system."
-          link=""
+          discription="A Java object-oriented university residence system. Constructed through six application versions, various software design patterns, and a GUI."
+          gitlink=""
           sideLeft="false"
-        />
-        <Project
-          src="images/EnviroSearch-one.png"
-          alt="Image of Marmik's EnviroSearch project"
-          title="EnviroSearch"
-          discription="An android app that displays corporations’ environmental footprints. Developed on Android Studio/Java using Google Custom Search JSON API by making RESTful requests through the .NET and JSON libraries. It was a group project for Hack the Valley V."
-          link="https://github.com/marmikpatel19/EnviroSearch"
-          sideLeft="true"
+          id="student"
         />
         <Project
           src="images/BookBees-one.png"
           alt="Image of Marmik's BookBees project"
           title="BookBees"
-          discription="A single-page beekeeping application developed using React.js, HTML, and CSS to provide local businesses with an interactive, responsive UI."
-          link="https://github.com/marmikpatel19/BookBees"
+          discription="An interactive, responsive beekeeping UI built using React.js, HTML, and CSS."
+          gitlink="https://github.com/marmikpatel19/BookBees"
+          sideLeft="true"
+          link="https://sad-lamport-370283.netlify.app/"
+          id="bookbees"
+        />
+        <Project
+          src="images/EnviroSearch-one.png"
+          alt="Image of Marmik's EnviroSearch project"
+          title="EnviroSearch"
+          discription="An app that displays corporations’ environmental footprints. Developed on Android Studio/Java using Google Custom Search JSON API."
+          gitlink="https://github.com/marmikpatel19/EnviroSearch"
           sideLeft="false"
+          id="envirosearch"
         />
       </div>
     </div>
