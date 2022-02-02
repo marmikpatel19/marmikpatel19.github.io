@@ -5,22 +5,31 @@
   margin: 6% auto 4% 6%;
 }
 
-.project {
+/*Project*/
+
+.project,
+.project-right {
   margin: auto;
   text-align: center;
   margin-bottom: 100px;
   margin-top: -30px;
 }
 
-.project-photo {
+.project-photo,
+.project-photo-right {
   width: 600px;
   box-shadow: var(--bs);
   margin-left: -20%;
   margin-bottom: 200px;
   z-index: -1;
+  border: 1px;
+  border-style: inset;
+  border-radius: 6px;
+  border-color: var(--clr-secondary);
 }
 
-.text {
+.text,
+.text-right {
   background-color: var(--clr-dark);
   max-width: 450px;
   min-width: 450px;
@@ -32,6 +41,7 @@
   box-shadow: var(--bs);
   z-index: 2;
   position: relative;
+  border-radius: 6px;
 }
 
 .project-title {
@@ -47,29 +57,37 @@
   margin-bottom: -1%;
 }
 
-#student > .text > .project-discription {
+#student > .text > .project-discription,
+#student > .text-right > .project-discription {
   margin-bottom: 3%;
 }
 
-#bookbees > .text {
+#bookbees > .text,
+#bookbees > .text-right {
   margin-top: -365px;
 }
 
-#envirosearch > .text {
+#envirosearch > .text,
+#envirosearch > .text-right {
   margin-top: -390px;
 }
 
-#student > .text > .project-title {
+#student > .text > .project-title,
+#student > .text-right > .project-title {
   margin-right: -26%;
 }
 
-#bookbees > .text > .project-title {
+#bookbees > .text > .project-title,
+#bookbees > .text-right > .project-title {
   margin-right: -50%;
 }
 
-#envirosearch > .text > .project-title {
+#envirosearch > .text > .project-title,
+#envirosearch > .text-right > .project-title {
   margin-right: -50%;
 }
+
+/*External Links*/
 
 #link1,
 #link2 {
@@ -82,13 +100,16 @@
 }
 
 #bookbees > .text > #link2,
-#bookbees > .text > #link1 {
+#bookbees > .text > #link1,
+#bookbees > .text-right > #link2,
+#bookbees > .text-right > #link1 {
   position: relative;
   left: 45.5%;
   bottom: 91px;
 }
 
-#envirosearch > .text > #link1 {
+#envirosearch > .text > #link1,
+#envirosearch > .text-right > #link1 {
   position: relative;
   left: 48%;
   bottom: 114px;
@@ -96,9 +117,24 @@
 
 #student > .text > #link2,
 #student > .text > #link1,
-#envirosearch > .text > #link2 {
+#envirosearch > .text > #link2,
+#student > .text-right > #link2,
+#student > .text-right > #link1,
+#envirosearch > .text-right > #link2 {
   display: none;
 }
+
+/*Right-side learning elements*/
+.project-photo-right {
+  margin-left: 20%;
+  border-style: outset;
+}
+
+.text-right {
+  margin-left: 20%;
+}
+
+/*hover  pseudo-classes*/
 
 #link1:hover,
 #link2:hover {
@@ -107,7 +143,8 @@
   color: var(--clr-secondary);
 }
 
-.project-photo:hover {
+.project-photo:hover,
+.project-photo-right:hover {
   transform: scale(1.05);
   transition: all 200ms ease-in;
 }
