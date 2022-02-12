@@ -7,7 +7,8 @@
 
 /*Experiences*/
 
-.experience {
+.experience,
+.education {
   background-color: var(--clr-dark);
   width: 800px;
   margin: auto;
@@ -18,19 +19,17 @@
   box-shadow: var(--bs);
 }
 
-.experience-title {
+.experience-title,
+.university {
   color: var(--clr-secondary);
   font-size: var(--fs-h3);
   font-weight: var(--fw-bold);
 }
 
-.experience-time {
-  font-size: var(--fs-h5);
-  font-weight: var(--fw-med);
-  color: var(--clr-light);
-}
-
-.experience-bullets {
+.experience-time,
+.experience-bullets,
+.timeline,
+.degree {
   font-size: var(--fs-h5);
   font-weight: var(--fw-med);
   color: var(--clr-light);
@@ -42,7 +41,8 @@ li {
 
 /*Media Queries*/
 @media screen and (max-width: 950px) {
-  .experience {
+  .experience,
+  .education {
     width: 80%;
   }
 }
