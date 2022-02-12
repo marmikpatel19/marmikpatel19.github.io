@@ -3,6 +3,8 @@ import "../../App.css";
 import Navbar from "../navbar";
 import Aboutme from "../aboutme";
 import Projects from "../projects";
+import Experiences from "../experiences";
+import Education from "../education";
 
 function home() {
   return (
@@ -10,6 +12,8 @@ function home() {
       <Navbar />
       <Aboutme />
       <Projects />
+      <Experiences />
+      <Education />
     </>
   );
 }

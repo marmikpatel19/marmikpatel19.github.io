@@ -1,0 +1,48 @@
+.section-title {
+  color: var(--clr-dark);
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-bold);
+  margin: 6% auto 4% 6%;
+}
+
+/*Experiences*/
+
+.experience,
+.education {
+  background-color: var(--clr-dark);
+  width: 800px;
+  margin: auto;
+  border-radius: 6px;
+  border-style: outset;
+  border-color: var(--clr-secondary);
+  padding: 20px;
+  box-shadow: var(--bs);
+}
+
+.experience-title,
+.university {
+  color: var(--clr-secondary);
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-bold);
+}
+
+.experience-time,
+.experience-bullets,
+.timeline,
+.degree {
+  font-size: var(--fs-h5);
+  font-weight: var(--fw-med);
+  color: var(--clr-light);
+}
+
+li {
+  color: var(--clr-light);
+}
+
+/*Media Queries*/
+@media screen and (max-width: 950px) {
+  .experience,
+  .education {
+    width: 80%;
+  }
+}

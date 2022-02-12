@@ -1,0 +1,17 @@
+hr {
+  max-width: 300px;
+  background-color: var(--clr-secondary);
+  height: 5px;
+  margin: 40px 0 40px 10%;
+  border-style: outset;
+  border-radius: 6px;
+}
+
+.timeline {
+  margin-top: -20px;
+}
+
+.degree {
+  margin-left: 20px;
+  margin-top: -10px;
+}
