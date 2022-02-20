@@ -5,6 +5,7 @@ import Aboutme from "../aboutme";
 import Projects from "../projects";
 import Experiences from "../experiences";
 import Education from "../education";
+import ManagementExps from "../managementExps";
 
 function home() {
   return (
@@ -14,6 +15,7 @@ function home() {
       <Projects />
       <Experiences />
       <Education />
+      <ManagementExps />
     </>
   );
 }
