@@ -1,0 +1,91 @@
+.section-title {
+  color: var(--clr-dark);
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-bold);
+  margin: 6% auto 4% 6%;
+}
+
+.management-container {
+  display: grid;
+}
+
+#PlantForever {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  margin-right: -10%;
+}
+
+#YCL {
+  grid-column: 2 / 2;
+  grid-row: 1;
+  margin-left: -10%;
+}
+
+.management-photo {
+  display: grid;
+}
+
+#PlantForever > .management-photo {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+
+#YCL > .management-photo {
+  grid-column: 2 / 2;
+  grid-row: 1;
+}
+
+.management-title {
+  margin: auto;
+  width: fit-content;
+  color: var(--clr-dark);
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-bold);
+}
+
+.management-photo {
+  width: 550px;
+  box-shadow: var(--bs);
+  margin: auto;
+  z-index: -1;
+  border: 1px;
+  border-style: inset;
+  border-radius: 6px;
+  border-color: var(--clr-secondary);
+}
+
+.management-text {
+  background-color: var(--clr-dark);
+  width: 500px;
+  position: relative;
+  margin: auto;
+  margin-top: -5%;
+  z-index: 2;
+  border-radius: 6px;
+  padding: 10px 20px 10px 20px;
+  padding-top: 5px;
+  box-shadow: var(--bs);
+}
+
+.management-discription,
+.management-time {
+  font-size: var(--fs-h5);
+  font-weight: var(--fw-med);
+  color: var(--clr-light);
+}
+
+.links {
+  margin-left: 38%;
+  margin-top: -9.5%;
+}
+
+#PlantForever > .management-text > .links {
+  margin-left: 35%;
+}
+
+/*hover pseudo-classes*/
+
+.management-photo:hover {
+  transform: scale(1.05);
+  transition: all 200ms ease-in;
+}
