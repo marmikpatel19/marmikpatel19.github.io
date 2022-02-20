@@ -89,3 +89,43 @@
   transform: scale(1.05);
   transition: all 200ms ease-in;
 }
+
+/*Media Queries*/
+@media screen and (max-width: 1400px) {
+  #PlantForever {
+    margin-right: 0%;
+  }
+
+  #YCL {
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .management-container {
+    display: initial;
+  }
+
+  .management {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .management-photo {
+    width: 400px;
+  }
+
+  .management-text {
+    width: 450px;
+  }
+
+  .links {
+    margin-left: 41%;
+    margin-top: -10.5%;
+  }
+
+  #PlantForever > .management-text > .links {
+    margin-left: 38%;
+  }
+}
