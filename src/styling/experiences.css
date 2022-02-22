@@ -5,7 +5,7 @@
   margin: 6% auto 4% 6%;
 }
 
-/*Experiences*/
+/*Experiences, Education*/
 
 .experience,
 .education {
@@ -15,7 +15,7 @@
   border-radius: 6px;
   border-style: outset;
   border-color: var(--clr-secondary);
-  padding: 20px;
+  padding: 10px 20px 10px 20px;
   box-shadow: var(--bs);
 }
 
