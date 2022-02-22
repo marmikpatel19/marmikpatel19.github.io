@@ -2,16 +2,15 @@
 	<h2>
         My Personal website built using <a href="https://reactjs.org/">React</a> and HTML/CSS.    
     </h2>
-</div>
-
-<h1 align="center" style="text-align: center; margin-top: 5%">
+    <h1 align="center" style="text-align: center; margin-top: 5%">
         <a href="https://marmikpatel19.github.io/"> https://marmikpatel19.github.io/</a>     
-</h1>
+    </h1>
+</div>
 
 <img
     src="public/images/readme-video.gif"
     alt="Marmik Patel Personal Website Gif"
-    width="1000px"
+    width="500px"
     style="
         display: block;
         margin-left: auto;
