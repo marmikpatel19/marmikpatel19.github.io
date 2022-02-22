@@ -8,10 +8,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          {/*
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/experiences" element={<Experiences />} />
-          <Route path="/management" element={<Management />} /> */}
         </Routes>
       </BrowserRouter>
     </>

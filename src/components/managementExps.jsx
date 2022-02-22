@@ -4,7 +4,7 @@ import "../styling/management.css";
 
 function ManagementExps() {
   return (
-    <div className="management-experiences">
+    <div className="management-experiences" id="managementExps-routing">
       <h1 className="section-title">Management & Environmentalism</h1>
 
       {/*Container for compartments of two experiences */}
