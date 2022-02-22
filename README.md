@@ -1,10 +1,11 @@
-<div align="center" style="text-align: center;"> 
-	<h2>
-        My Personal website built using <a href="https://reactjs.org/">React</a> and HTML/CSS.    
-    </h2>
-    <h1 align="center" style="text-align: center; margin-top: 5%">
+<div> 
+	<h1 align="center" style="text-align: center; margin-top: 5%">
         <a href="https://marmikpatel19.github.io/"> https://marmikpatel19.github.io/</a>     
     </h1>
+    <h2>
+        My Personal website built using <a href="https://reactjs.org/">React</a> and HTML/CSS.    
+    </h2>
+    
 </div>
 
 <img
