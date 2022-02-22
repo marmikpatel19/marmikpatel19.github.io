@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import "../styling/navbar.css";
+import { Link } from "react-scroll";
 
 function Navbar() {
   /*menu toggle button */
@@ -18,10 +18,14 @@ function Navbar() {
           <div className="navbar-toggle" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
+
           <ul className={click ? "navbar-menu active" : "navbar-menu"}>
             <li className="navbar-item" id="projects">
               <Link
-                to="/projects"
+                to="projects-routing"
+                smooth={true}
+                duration={800}
+                offset={-80}
                 className="navbar-links"
                 onClick={closeMobileMenu}
               >
@@ -30,7 +34,10 @@ function Navbar() {
             </li>
             <li className="navbar-item" id="experiences">
               <Link
-                to="/experiences"
+                to="experiences-routing"
+                smooth={true}
+                duration={1000}
+                offset={-80}
                 className="navbar-links"
                 onClick={closeMobileMenu}
               >
@@ -39,7 +46,10 @@ function Navbar() {
             </li>
             <li className="navbar-item" id="management">
               <Link
-                to="/management"
+                to="managementExps-routing"
+                smooth={true}
+                duration={1000}
+                offset={-80}
                 className="navbar-links"
                 onClick={closeMobileMenu}
               >

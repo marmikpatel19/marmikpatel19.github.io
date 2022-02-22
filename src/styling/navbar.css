@@ -37,6 +37,7 @@
 
 .navbar-links:hover {
   color: var(--clr-secondary);
+  cursor: pointer;
 }
 
 /*Navbar item transformation*/

@@ -5,6 +5,10 @@
   margin: 6% auto 4% 6%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /*Project*/
 
 .project,
@@ -193,5 +197,9 @@
   .text-right {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #student {
+    margin-top: 10%;
   }
 }
