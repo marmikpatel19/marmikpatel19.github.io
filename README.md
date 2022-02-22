@@ -10,10 +10,12 @@
 <img
     src="public/images/readme-video.gif"
     alt="Marmik Patel Personal Website Gif"
-    width="500px"
+    width="600px"
+    align="center"
     style="
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 10px;"
+        margin-top: 10px;
+        text-align: center"
 />
