@@ -1,27 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import "../styling/aboutme.css";
 import { init } from "ityped";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const asd = [
-  "Marmik Patel",
-  "a software engineer",
-  "an entrepreneur",
-  "an environmentalist",
-];
-
-//const space = "\u00A0";
+import { faFileLines } from "@fortawesome/free-solid-svg-icons";
 
 const introduction = "Hey,\n";
-
-//&nbsp's for move the introduction text left
-/*
-function getSpaces() {
-  var spaces = [];
-  for (var i = 0; i < 0; i++) {
-    spaces.push(space);
-  }
-  return <h1>{spaces}</h1>;
-}*/
 
 function Aboutme() {
   const titles = useRef();
@@ -72,10 +56,10 @@ function Aboutme() {
         <ul className="aboutme-links">
           <a
             target="_blank"
-            href="https://github.com/marmikpatel19/marmikpatel19.github.io/public/marmikpatelresume.pdf"
+            href="https://marmikpatel19.github.io/MarmikPatelResume.pdf"
           >
             <li className="aboutme-link">
-              <i class="far fa-file"></i>
+              <FontAwesomeIcon icon={faFileLines} />
             </li>
           </a>
 

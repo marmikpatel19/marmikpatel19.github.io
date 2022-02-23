@@ -1,7 +1,7 @@
 import React from "react";
 import "../styling/footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFile, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faFileLines, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
@@ -13,17 +13,17 @@ function Footer() {
           <a
             className="footer-link"
             target="_blank"
-            href="https://github.com/marmikpatel19/marmikpatel19.github.io/public/marmikpatelresume.pdf"
+            href="https://marmikpatel19.github.io/MarmikPatelResume.pdf"
           >
             <li className="footer-icon">
-              <FontAwesomeIcon icon={faFile} />
+              <FontAwesomeIcon icon={faFileLines} />
             </li>
           </a>
 
           <a
             className="footer-link"
             target="_blank"
-            href="https://ca.linkedin.com/in/marmikp"
+            href="https://github.com/marmikpatel19"
           >
             <li className="footer-icon">
               <FontAwesomeIcon icon={faGithub} />
@@ -33,7 +33,7 @@ function Footer() {
           <a
             className="footer-link"
             target="_blank"
-            href="https://github.com/marmikpatel19"
+            href="https://ca.linkedin.com/in/marmikp"
           >
             <li className="footer-icon">
               <FontAwesomeIcon icon={faLinkedin} />
