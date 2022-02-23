@@ -72,7 +72,7 @@ function Aboutme() {
         <ul className="aboutme-links">
           <a
             target="_blank"
-            href="https://github.com/marmikpatel19/marmikpatel19.github.io/public/MarmikPatelResume.pdf"
+            href="https://github.com/marmikpatel19/marmikpatel19.github.io/public/marmikpatelresume.pdf"
           >
             <li className="aboutme-link">
               <i class="far fa-file"></i>
