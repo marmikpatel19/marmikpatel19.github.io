@@ -6,6 +6,7 @@ import Projects from "../projects";
 import Experiences from "../experiences";
 import Education from "../education";
 import ManagementExps from "../managementExps";
+import Footer from "../footer";
 
 function home() {
   return (
@@ -16,6 +17,7 @@ function home() {
       <Experiences />
       <Education />
       <ManagementExps />
+      <Footer />
     </>
   );
 }
