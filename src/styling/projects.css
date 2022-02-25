@@ -1,4 +1,4 @@
-.section-title {
+.projects-section-title {
   color: var(--clr-dark);
   font-size: var(--fs-h2);
   font-weight: var(--fw-bold);
@@ -183,7 +183,7 @@ body {
 }
 
 @media screen and (max-width: 750px) {
-  .section-title {
+  projects-section-title {
     margin-bottom: 15%;
   }
 
@@ -201,5 +201,78 @@ body {
 
   #student {
     margin-top: 10%;
+  }
+}
+
+/*Smallest Layout*/
+
+@media screen and (max-width: 550px) {
+  .projects-section-title {
+    font-size: var(--fs-h2-v2);
+  }
+
+  .project-photo,
+  .project-photo-right {
+    width: 250px;
+    margin-left: auto;
+  }
+
+  .text,
+  .text-right {
+    max-width: 95%;
+    min-width: 95%;
+  }
+
+  .project-title {
+    font-size: var(--fs-h4);
+  }
+
+  #student > .text,
+  #student > .text-right,
+  #bookbees > .text,
+  #bookbees > .text-right,
+  #envirosearch > .text,
+  #envirosearch > .text-right {
+    margin-top: -220px;
+  }
+
+  #student > .text > .project-title,
+  #student > .text-right > .project-title {
+    margin: auto;
+    margin-bottom: 6px;
+  }
+
+  #bookbees > .text > .project-title,
+  #bookbees > .text-right > .project-title {
+    margin: auto;
+    margin-bottom: 6px;
+  }
+
+  #envirosearch > .text > .project-title,
+  #envirosearch > .text-right > .project-title {
+    margin: auto;
+    margin-bottom: 6px;
+  }
+
+  .project-discription {
+    font-size: var(--fs-h6);
+    margin: auto;
+  }
+
+  #student > .text > .project-discription,
+  #student > .text-right > .project-discription {
+    margin-bottom: 20px;
+  }
+
+  #bookbees > .text > #link2,
+  #bookbees > .text > #link1,
+  #bookbees > .text-right > #link2,
+  #bookbees > .text-right > #link1 {
+    bottom: 68px;
+  }
+
+  #envirosearch > .text > #link1,
+  #envirosearch > .text-right > #link1 {
+    bottom: 100px;
   }
 }
