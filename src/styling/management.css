@@ -1,4 +1,4 @@
-.section-title {
+.management-section-title {
   color: var(--clr-dark);
   font-size: var(--fs-h2);
   font-weight: var(--fw-bold);
@@ -127,5 +127,44 @@
 
   #PlantForever > .management-text > .links {
     margin-left: 38%;
+  }
+}
+
+/*Smallest Layout*/
+
+@media screen and (max-width: 550px) {
+  .management-section-title {
+    font-size: 2rem;
+  }
+
+  .management-title {
+    font-size: var(--fs-h4);
+  }
+
+  .management-photo {
+    width: 250px;
+  }
+
+  .management-discription,
+  .management-time {
+    font-size: var(--fs-h6);
+  }
+
+  .links {
+    margin-top: -13.5%;
+    margin-left: 50%;
+  }
+
+  #link1,
+  #link2 {
+    font-size: 15px;
+  }
+
+  #PlantForever > .management-text > .links {
+    margin-left: 44%;
+  }
+
+  .management-text {
+    width: 280px;
   }
 }
