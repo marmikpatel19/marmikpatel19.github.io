@@ -5,7 +5,7 @@ import "../styling/experiences.css";
 function Experiences() {
   return (
     <div className="experiences" id="experiences-routing">
-      <h1 className="section-title">Experiences & Education</h1>
+      <h1 className="experiences-section-title">Experiences & Education</h1>
 
       <Experience
         title="Robotics Course Developer & Instructor @ Infokidz Academy"

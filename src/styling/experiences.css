@@ -1,4 +1,4 @@
-.section-title {
+.experiences-section-title {
   color: var(--clr-dark);
   font-size: var(--fs-h2);
   font-weight: var(--fw-bold);
@@ -44,5 +44,25 @@ li {
   .experience,
   .education {
     width: 80%;
+  }
+}
+
+/*Smallest Layout*/
+
+@media screen and (max-width: 550px) {
+  .experiences-section-title {
+    font-size: var(--fs-h2-v2);
+  }
+
+  .experience-title,
+  .university {
+    font-size: var(--fs-h4);
+  }
+
+  .experience-time,
+  .experience-bullets,
+  .timeline,
+  .degree {
+    font-size: var(--fs-h6);
   }
 }
