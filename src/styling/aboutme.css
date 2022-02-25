@@ -695,11 +695,10 @@
   }
 }
 
-/*Smallest Layout*/
+/*Smaller Layout*/
 
 @media screen and (max-width: 840px) {
   .aboutme-introduction {
-    /*margin-left: 210px;*/
     margin-left: 25%;
     font-size: var(--fs-h2);
     margin-top: -560px;
@@ -751,5 +750,40 @@
   }
   .aboutme-discription {
     margin-left: 10%;
+  }
+}
+
+/*Smallest Layout*/
+
+@media screen and (max-width: 550px) {
+  .aboutme-introduction {
+    margin-left: 20%;
+    font-size: var(--fs-h2-v2);
+    margin-top: -400px;
+  }
+  .title,
+  .im {
+    font-size: var(--fs-h3);
+  }
+
+  .aboutme-photo {
+    width: 250px;
+    margin-left: 20%;
+  }
+
+  .aboutme-discription {
+    margin-left: 20%;
+    margin-right: 10%;
+    margin-top: 280px;
+    font-size: var(--fs-h5);
+  }
+
+  .aboutme-links {
+    margin-top: 400px;
+    margin-left: 29%;
+  }
+
+  .aboutme-link {
+    font-size: 20px;
   }
 }
