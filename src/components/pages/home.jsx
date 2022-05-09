@@ -13,9 +13,9 @@ function home() {
     <>
       <Navbar />
       <Aboutme />
-      <Projects />
       <Experiences />
       <Education />
+      <Projects />
       <ManagementExps />
       <Footer />
     </>

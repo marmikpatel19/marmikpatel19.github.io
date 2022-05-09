@@ -8,10 +8,10 @@ function Experiences() {
       <h1 className="experiences-section-title">Experiences & Education</h1>
 
       <Experience
-        title="Robotics Course Developer & Instructor @ Infokidz Academy"
-        time="2017"
-        bullet1="Architected a robotics course using a visual programming language and robots, structuring 23 activities."
-        bullet2="Taught six students by practicing strong communication and analytical skills, receiving outstanding student-parent satisfaction."
+        title="Software Developer Intern @ Infokidz Academy"
+        time="May 2022 - Present"
+        bullet1="Architecting the company's front-end using React.js"
+        bullet2="Developing a back-end management system"
       />
     </div>
   );

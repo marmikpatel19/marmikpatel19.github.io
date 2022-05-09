@@ -20,18 +20,6 @@ function Navbar() {
           </div>
 
           <ul className={click ? "navbar-menu active" : "navbar-menu"}>
-            <li className="navbar-item" id="projects">
-              <Link
-                to="projects-routing"
-                smooth={true}
-                duration={800}
-                offset={-80}
-                className="navbar-links"
-                onClick={closeMobileMenu}
-              >
-                Projects
-              </Link>
-            </li>
             <li className="navbar-item" id="experiences">
               <Link
                 to="experiences-routing"
@@ -42,6 +30,18 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 Experiences & Education
+              </Link>
+            </li>
+            <li className="navbar-item" id="projects">
+              <Link
+                to="projects-routing"
+                smooth={true}
+                duration={800}
+                offset={-80}
+                className="navbar-links"
+                onClick={closeMobileMenu}
+              >
+                Projects
               </Link>
             </li>
             <li className="navbar-item" id="management">
