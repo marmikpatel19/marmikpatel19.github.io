@@ -19,7 +19,7 @@ function Aboutme() {
       showCursor: true,
       strings: [
         "Marmik Patel",
-        "a software engineer",
+        "a software developer",
         "an entrepreneur",
         "an environmentalist",
       ],
