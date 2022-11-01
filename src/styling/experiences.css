@@ -39,6 +39,10 @@ li {
   color: var(--clr-light);
 }
 
+a {
+  color: var(--clr-light);
+}
+
 /*Media Queries*/
 @media screen and (max-width: 950px) {
   .experience,

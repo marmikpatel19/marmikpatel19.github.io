@@ -9,9 +9,11 @@ function Experiences() {
 
       <Experience
         title="Software Developer Intern @ Infokidz Academy"
-        time="May 2022 - Present"
-        bullet1="Architecting the company's front-end using React.js"
-        bullet2="Developing a back-end management system"
+        time="May 2022 - Aug 2022"
+        bullet1={
+          "Developed a full-stack web application serving as the public business website. See the source code"
+        }
+        bullet2="Worked with the MERN stack, AWS, and Google OAuth 2.0"
       />
     </div>
   );
