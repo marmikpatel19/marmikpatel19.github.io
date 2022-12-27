@@ -1,9 +1,9 @@
 <div> 
-	<h1 align="center" style="text-align: center; margin-top: 5%">
+	<h2 align="center" style="text-align: center; margin-top: 5%">
         <a href="https://marmikpatel19.github.io/"> https://marmikpatel19.github.io/</a>     
-    </h1>
+    </h2>
     <h2>
-        My Personal website built using <a href="https://reactjs.org/">React</a> and HTML/CSS.    
+        My personal website built using React and HTML/CSS. It includes Experiences & Education, Projects, and Management & Environmentalism.
     </h2>
     
 </div>
