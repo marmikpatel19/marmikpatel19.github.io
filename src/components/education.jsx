@@ -17,8 +17,7 @@ function Education() {
         <h1 className="university">University of Toronto</h1>
         <h2 className="timeline">Sept 2020 - Aug 2021</h2>
         <h2 className="degree">
-          Bachelor of Science (incomplete), Computer Science, Mathematics,
-          Statistics
+          Bachelor of Science, Computer Science, Mathematics, Statistics
         </h2>
       </div>
     </>

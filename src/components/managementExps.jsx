@@ -14,7 +14,7 @@ function ManagementExps() {
         <Management
           title="Founding President @ PlantForever"
           time="Aug 2017 - Present"
-          discription="I manage the nonprofit PlantForever, driving the vision to develop urban forests. I collaborate with a four-person team and 10-30 volunteers, leading PlantForever to (in)directly plant 10,000+ trees and engage 1,700,000+ individuals. "
+          discription="I manage the nonprofit PlantForever, driving the vision to develop urban forests. I collaborate with a nine-person team and 10-30 volunteers, leading PlantForever to (in)directly plant 10,000+ trees and engage 1,700,000+ individuals. "
           src="images/PlantForever-One.jpg"
           alt="Image of Marmik's PlantForever management experience"
           link1="https://www.plantforever.org/"
