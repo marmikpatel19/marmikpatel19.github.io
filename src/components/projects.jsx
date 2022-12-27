@@ -12,19 +12,19 @@ function Projects() {
           src="images/Relatable.png"
           alt="Image of Marmik Patel's Relatable project"
           title="Relatable"
-          discription="An interactive course detailer for the University of Saskatchewan. A user searches for a course, and the application displays its prerequisites, dependencies, and other useful information."
+          discription="An interactive course detailer for the University of Saskatchewan that shows any course's prerequisites and dependencies. Built using Python, Django, React.js, and MySQL"
           gitlink="https://github.com/relatable-course-visualization/Relatable"
           sideLeft="false"
           id="relatable"
         />
         <Project
-          src="images/BookBees-one.png"
-          alt="Image of Marmik Patel's BookBees project"
-          title="BookBees"
-          discription="An interactive, responsive beekeeping UI built using React.js, HTML, and CSS."
-          gitlink="https://github.com/marmikpatel19/BookBees"
+          src="images/CarChat.png"
+          alt="Image of Marmik Patel's CarChat project"
+          title="CarChat"
+          discription="A web app that displays trending news, conversations, and videos in the car industry."
+          gitlink="https://github.com/marmikpatel19/car-chat"
           sideLeft="true"
-          link="https://sad-lamport-370283.netlify.app/"
+          link="https://carchat.netlify.app/"
           id="bookbees"
         />
         <Project
