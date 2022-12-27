@@ -76,8 +76,8 @@ body {
   margin-top: -365px;
 }
 
-#envirosearch > .text,
-#envirosearch > .text-right {
+#relatable > .text,
+#relatable > .text-right {
   margin-top: -390px;
 }
 
@@ -91,8 +91,8 @@ body {
   margin-right: -50%;
 }
 
-#envirosearch > .text > .project-title,
-#envirosearch > .text-right > .project-title {
+#relatable > .text > .project-title,
+#relatable > .text-right > .project-title {
   margin-right: -50%;
 }
 
@@ -117,19 +117,19 @@ body {
   bottom: 91px;
 }
 
-#envirosearch > .text > #link1,
-#envirosearch > .text-right > #link1 {
+#relatable > .text > #link1,
+#relatable > .text-right > #link1 {
   position: relative;
   left: 48%;
-  bottom: 114px;
+  bottom: 138px;
 }
 
 #student > .text > #link2,
 #student > .text > #link1,
-#envirosearch > .text > #link2,
+#relatable > .text > #link2,
 #student > .text-right > #link2,
 #student > .text-right > #link1,
-#envirosearch > .text-right > #link2 {
+#relatable > .text-right > #link2 {
   display: none;
 }
 
@@ -176,8 +176,8 @@ body {
     margin-top: -235px;
   }
 
-  #envirosearch > .text,
-  #envirosearch > .text-right {
+  #relatable > .text,
+  #relatable > .text-right {
     margin-top: -260px;
   }
 }
@@ -231,8 +231,8 @@ body {
   #student > .text-right,
   #bookbees > .text,
   #bookbees > .text-right,
-  #envirosearch > .text,
-  #envirosearch > .text-right {
+  #relatable > .text,
+  #relatable > .text-right {
     margin-top: -220px;
   }
 
@@ -248,8 +248,8 @@ body {
     margin-bottom: 6px;
   }
 
-  #envirosearch > .text > .project-title,
-  #envirosearch > .text-right > .project-title {
+  #relatable > .text > .project-title,
+  #relatable > .text-right > .project-title {
     margin: auto;
     margin-bottom: 6px;
   }
@@ -271,8 +271,8 @@ body {
     bottom: 68px;
   }
 
-  #envirosearch > .text > #link1,
-  #envirosearch > .text-right > #link1 {
+  #relatable > .text > #link1,
+  #relatable > .text-right > #link1 {
     bottom: 100px;
   }
 }

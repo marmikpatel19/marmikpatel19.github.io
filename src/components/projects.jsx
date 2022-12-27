@@ -9,32 +9,32 @@ function Projects() {
 
       <div className="projects-container">
         <Project
+          src="images/Relatable.png"
+          alt="Image of Marmik Patel's Relatable project"
+          title="Relatable"
+          discription="An interactive course detailer for the University of Saskatchewan that shows any course's prerequisites and dependencies. Built using Python, Django, React.js, and MySQL"
+          gitlink="https://github.com/relatable-course-visualization/Relatable"
+          sideLeft="false"
+          id="relatable"
+        />
+        <Project
+          src="images/CarChat.png"
+          alt="Image of Marmik Patel's CarChat project"
+          title="CarChat"
+          discription="A web app that displays trending news, conversations, and videos in the car industry."
+          gitlink="https://github.com/marmikpatel19/car-chat"
+          sideLeft="true"
+          link="https://carchat.netlify.app/"
+          id="bookbees"
+        />
+        <Project
           src="images/Student-Residence-System.png"
-          alt="Image of Marmik's Student Residence System project"
+          alt="Image of Marmik Patel's Student Residence System project"
           title="Student Residence System"
           discription="A Java object-oriented university residence system. Constructed through six application versions, various software design patterns, and a GUI."
           gitlink=""
           sideLeft="false"
           id="student"
-        />
-        <Project
-          src="images/BookBees-one.png"
-          alt="Image of Marmik's BookBees project"
-          title="BookBees"
-          discription="An interactive, responsive beekeeping UI built using React.js, HTML, and CSS."
-          gitlink="https://github.com/marmikpatel19/BookBees"
-          sideLeft="true"
-          link="https://sad-lamport-370283.netlify.app/"
-          id="bookbees"
-        />
-        <Project
-          src="images/EnviroSearch-one.png"
-          alt="Image of Marmik's EnviroSearch project"
-          title="EnviroSearch"
-          discription="An app that displays corporations’ environmental footprints. Developed on Android Studio/Java using Google Custom Search JSON API."
-          gitlink="https://github.com/marmikpatel19/EnviroSearch"
-          sideLeft="false"
-          id="envirosearch"
         />
       </div>
     </div>
