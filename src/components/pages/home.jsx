@@ -4,21 +4,24 @@ import Project from "../project";
 import Experience from "../experience";
 import Management from "../management";
 import Footer from "../footer";
+import { Paper } from "@mui/material";
 
 function Home() {
   return (
     <>
-      <Navbar />
-      <About />
+      <Paper elevation={0} sx={{ backgroundColor: "background.main" }}>
+        <Navbar />
+        <About />
 
-      <Experience />
-      <Experience />
+        <Experience />
+        <Experience />
 
-      <Project />
-      <Project />
+        <Project />
+        <Project />
 
-      <Management />
-      <Footer />
+        <Management />
+        <Footer />
+      </Paper>
     </>
   );
 }
