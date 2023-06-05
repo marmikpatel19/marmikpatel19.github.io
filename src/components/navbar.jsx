@@ -29,7 +29,7 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="static" color="background">
+    <AppBar position="static" color="primary">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -39,7 +39,7 @@ function Navbar() {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="inherit"
+              color="background"
             >
               <MenuIcon />
             </IconButton>
@@ -58,12 +58,27 @@ function Navbar() {
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
-                display: { xs: "block", md: "none" },
+                display: {
+                  xs: "block",
+                  md: "none",
+                },
               }}
             >
               {sections.map((section) => (
-                <MenuItem key={section} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center" sx={{ textTransform: "none" }}>
+                <MenuItem
+                  key={section}
+                  onClick={handleCloseNavMenu}
+                  sx={{ backgroundColor: "primary.main" }}
+                >
+                  <Typography
+                    textAlign="center"
+                    sx={{
+                      color: "background.main",
+                      textTransform: "none",
+                      fontSize: "h6.fontSize",
+                      fontWeight: "bold",
+                    }}
+                  >
                     {section}
                   </Typography>
                 </MenuItem>
@@ -77,7 +92,7 @@ function Navbar() {
                 onClick={handleCloseNavMenu}
                 sx={{
                   my: 2,
-                  color: "primary.main",
+                  color: "background.main",
                   display: "block",
                   textTransform: "none",
                   fontSize: "h5.fontSize",
