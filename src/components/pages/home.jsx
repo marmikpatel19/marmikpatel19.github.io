@@ -1,25 +1,26 @@
-import React from "react";
-import "../../App.css";
 import Navbar from "../navbar";
-import Aboutme from "../aboutme";
-import Projects from "../projects";
-import Experiences from "../experiences";
-import Education from "../education";
-import ManagementExps from "../managementExps";
+import About from "../about";
+import Project from "../project";
+import Experience from "../experience";
+import Management from "../management";
 import Footer from "../footer";
 
-function home() {
+function Home() {
   return (
     <>
       <Navbar />
-      <Aboutme />
-      <Experiences />
-      <Education />
-      <Projects />
-      <ManagementExps />
+      <About />
+
+      <Experience />
+      <Experience />
+
+      <Project />
+      <Project />
+
+      <Management />
       <Footer />
     </>
   );
 }
 
-export default home;
+export default Home;
