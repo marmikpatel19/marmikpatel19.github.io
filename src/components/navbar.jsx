@@ -9,7 +9,9 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
+import { Link } from "react-scroll";
 
+// These coincide with the id's of the components of the homepage
 const sections = ["About Me", "Experience", "Projects", "Management"];
 
 function Navbar() {
@@ -79,7 +81,9 @@ function Navbar() {
                       fontWeight: "bold",
                     }}
                   >
-                    {section}
+                    <Link to={`${section}`} smooth={true} duration={500}>
+                      {section}
+                    </Link>
                   </Typography>
                 </MenuItem>
               ))}
@@ -100,7 +104,9 @@ function Navbar() {
                   marginLeft: "40px",
                 }}
               >
-                {section}
+                <Link to={`${section}`} smooth={true} duration={500}>
+                  {section}
+                </Link>
               </Button>
             ))}
           </Box>

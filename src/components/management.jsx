@@ -1,5 +1,5 @@
 function Management() {
-  return <></>;
+  return <div id="Management"></div>;
 }
 
 export default Management;
