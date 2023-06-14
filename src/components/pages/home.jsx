@@ -5,12 +5,14 @@ import Experience from "../experience";
 import Management from "../management";
 import Footer from "../footer";
 import { Paper } from "@mui/material";
+import Hero from "../hero";
 
 function Home() {
   return (
     <>
       <Paper elevation={0} sx={{ backgroundColor: "background.main" }}>
         <Navbar />
+        <Hero />
         <About />
 
         <Experience />
