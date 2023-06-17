@@ -14,7 +14,10 @@ function Hero() {
           sm: "15%",
           md: "10%",
         },
-        height: "60vh",
+        height: {
+          xs: "40vh",
+          sm: "77vh",
+        },
         width: {
           xs: "248px",
           sm: "428px",
