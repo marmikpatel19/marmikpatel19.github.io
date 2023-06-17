@@ -81,7 +81,14 @@ function Navbar() {
                       fontWeight: "bold",
                     }}
                   >
-                    <Link to={`${section}`} smooth={true} duration={500}>
+                    <Link
+                      to={`${section}`}
+                      smooth={true}
+                      duration={500}
+                      style={{
+                        color: "#faf9f9",
+                      }}
+                    >
                       {section}
                     </Link>
                   </Typography>
@@ -104,7 +111,14 @@ function Navbar() {
                   marginLeft: "40px",
                 }}
               >
-                <Link to={`${section}`} smooth={true} duration={500}>
+                <Link
+                  to={`${section}`}
+                  smooth={true}
+                  duration={500}
+                  style={{
+                    color: "#faf9f9",
+                  }}
+                >
                   {section}
                 </Link>
               </Button>
