@@ -96,10 +96,6 @@ function Hero() {
               xs: "23px",
               sm: "32px",
             },
-            // fontSize: {
-            //   xs: "10px",
-            //   sm: "h7.fontSize",
-            // },
           }}
         />
       </Box>
