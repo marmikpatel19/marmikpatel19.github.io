@@ -13,6 +13,7 @@ function Footer() {
       sx={{
         backgroundColor: "background.main",
         borderTop: "3px solid #0d0d0d",
+        bottom: "0px",
       }}
     >
       <BottomNavigationAction
@@ -22,7 +23,10 @@ function Footer() {
             sx={{
               color: "dark.main",
               textTransform: "none",
-              fontSize: "h7.fontSize",
+              fontSize: {
+                xs: "10px",
+                sm: "15px",
+              },
               fontWeight: "bold",
               textAlign: "center",
             }}
@@ -57,6 +61,9 @@ function Footer() {
             }}
           />
         }
+        sx={{
+          marginLeft: "-20px",
+        }}
       />
       <BottomNavigationAction
         icon={
@@ -72,6 +79,12 @@ function Footer() {
             />
           </Link>
         }
+        sx={{
+          marginLeft: {
+            xs: "-40px",
+            sm: "-80px",
+          },
+        }}
       />
       <BottomNavigationAction
         icon={
@@ -79,7 +92,6 @@ function Footer() {
             <LinkedInIcon
               sx={{
                 color: "dark.main",
-                marginRight: "5px",
                 fontSize: {
                   xs: "30px",
                   sm: "40px",
@@ -88,6 +100,12 @@ function Footer() {
             />
           </Link>
         }
+        sx={{
+          marginLeft: {
+            xs: "-60px",
+            sm: "-80px",
+          },
+        }}
       />
     </BottomNavigation>
   );
