@@ -66,11 +66,10 @@ function About() {
             }}
           >
             I recently completed my <b>third year of Computer Science</b> at the
-            University of Saskatchewan (one more year left!). I'm currently
-            doing a 12-month internship at 7shifts as a{" "}
-            <b>Software Engineer Intern</b>, building innovative
-            restaurant-management software. Last summer, I also did a Software
-            Development internship. <br />
+            University of Saskatchewan. I'm currently doing a 12-month
+            internship at 7shifts as a <b>Software Engineer Intern</b>, building
+            innovative restaurant-management software. Last summer, I also did a
+            Software Development internship. <br />
             <br />
             Outside of work, I manage PlantForever, a Canadian tree-planting
             nonprofit!
