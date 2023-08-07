@@ -4,8 +4,8 @@ import Project from "../project";
 import Experience from "../experience";
 import Management from "../management";
 import Footer from "../footer";
-import { Paper } from "@mui/material";
 import Hero from "../hero";
+import { Paper } from "@mui/material";
 
 function Home() {
   return (

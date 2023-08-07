@@ -20,7 +20,10 @@ function Experience(props) {
           sx={{
             color: "dark.main",
             textTransform: "none",
-            fontSize: "h4.fontSize",
+            fontSize: {
+              xs: "h5.fontSize",
+              sm: "h4.fontSize",
+            },
             fontWeight: "bold",
           }}
         >
@@ -50,7 +53,10 @@ function Experience(props) {
             sx={{
               color: "dark.main",
               textTransform: "none",
-              fontSize: "h6.fontSize",
+              fontSize: {
+                xs: "h7.fontSize",
+                sm: "h6.fontSize",
+              },
               fontWeight: "bold",
             }}
           >
