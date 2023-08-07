@@ -65,8 +65,8 @@ function About() {
               fontSize: "h7.fontSize",
             }}
           >
-            I recently completed my <b>third year of Computer Science</b> at the
-            University of Saskatchewan. I'm currently doing a 12-month
+            I'm studying <b>Computer Science</b> at the
+            University of Saskatchewan. I'm currently doing an
             internship at 7shifts as a <b>Software Engineer Intern</b>, building
             innovative restaurant-management software. Last summer, I also did a
             Software Development internship. <br />
