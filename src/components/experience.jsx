@@ -11,6 +11,7 @@ function Experience(props) {
         bgcolor: "background.main",
         height: "60vh",
         width: "90%",
+        marginBottom: "-7%",
       }}
     >
       {props.showHeading && (
@@ -84,14 +85,13 @@ function Experience(props) {
         {props.imageSrc != null && (
           <img
             src={props.imageSrc}
-            alt="Marmik Patel"
+            alt={props.alt}
             style={{
-              borderRadius: "50%",
+              borderRadius: "10%",
               border: "solid",
               borderWidth: "3px",
               borderColor: "#bde8f1",
-              maxWidth: "300px",
-              marginRight: "4%",
+              maxWidth: "240px",
               marginBottom: "4%",
             }}
           />
