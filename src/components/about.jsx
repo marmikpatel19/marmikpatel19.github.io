@@ -9,8 +9,12 @@ function About() {
       maxWidth="md"
       sx={{
         bgcolor: "background.main",
-        height: "60vh",
         width: "90%",
+        marginBottom: {
+          xs: "25%",
+          sm: "15%",
+          md: "10%",
+        },
       }}
     >
       <Box
@@ -65,11 +69,11 @@ function About() {
               fontSize: "h7.fontSize",
             }}
           >
-            I'm studying <b>Computer Science</b> at the
-            University of Saskatchewan. I'm currently doing an
-            internship at 7shifts as a <b>Software Engineer Intern</b>, building
-            innovative restaurant-management software. Last summer, I also did a
-            Software Development internship. <br />
+            I'm studying <b>Computer Science</b> at the University of
+            Saskatchewan. I'm currently doing an internship at 7shifts as a{" "}
+            <b>Software Engineer Intern</b>, building innovative
+            restaurant-management software. Last summer, I also did a Software
+            Development internship. <br />
             <br />
             Outside of work, I manage PlantForever, a Canadian tree-planting
             nonprofit!
