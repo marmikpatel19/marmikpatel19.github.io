@@ -9,9 +9,7 @@ function Experience(props) {
       maxWidth="md"
       sx={{
         bgcolor: "background.main",
-        height: "60vh",
         width: "90%",
-        marginBottom: "-7%",
       }}
     >
       {props.showHeading && (
