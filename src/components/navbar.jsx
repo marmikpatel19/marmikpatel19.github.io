@@ -12,7 +12,7 @@ import MenuItem from "@mui/material/MenuItem";
 import { Link } from "react-scroll";
 
 // These coincide with the id's of the components of the homepage
-const sections = ["About Me", "Experience", "Projects", "Management"];
+const sections = ["About Me", "Experience"]; // add back when ready: "Projects", "Management"
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
