@@ -1,22 +1,8 @@
-<div> 
-	<h2 align="center" style="text-align: center; margin-top: 5%">
-        <a href="https://marmikpatel19.github.io/"> https://marmikpatel19.github.io/</a>     
-    </h2>
-    <h2>
-        My personal website built using React and HTML/CSS. It includes Experiences & Education, Projects, and Management & Environmentalism.
-    </h2>
-    
-</div>
-
+<h2 align="center" style="text-align: center; margin-top: 5%">
+	<a href="https://marmikpatel19.github.io/"> https://marmikpatel19.github.io/</a>     
+</h2>
 <img
-    src="public/images/readme-video.gif"
-    alt="Marmik Patel Personal Website Gif"
-    width="600px"
-    align="center"
-    style="
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 10px;
-        text-align: center"
+    src="https://github.com/marmikpatel19/marmikpatel19.github.io/assets/90867690/fb6b6297-35a0-46d5-b536-2f323ccf6639"
+    alt="Marmik Patel Personal Website"
+    align="center"	
 />
