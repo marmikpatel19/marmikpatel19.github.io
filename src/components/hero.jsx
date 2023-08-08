@@ -59,7 +59,11 @@ function Hero() {
           marginTop: "2%",
         }}
       >
-        <Link href="https://github.com/marmikpatel19" color="inherit">
+        <Link
+          target="__blank"
+          href="https://github.com/marmikpatel19"
+          color="inherit"
+        >
           <GitHubIcon
             sx={{
               marginTop: "-5px",
@@ -70,7 +74,11 @@ function Hero() {
             }}
           />
         </Link>
-        <Link href="https://linkedin.com/in/marmikp" color="inherit">
+        <Link
+          target="__blank"
+          href="https://linkedin.com/in/marmikp"
+          color="inherit"
+        >
           <LinkedInIcon
             sx={{
               marginRight: "5px",
@@ -87,6 +95,7 @@ function Hero() {
           variant="outlined"
           component="a"
           href="https://marmikpatel19.github.io/MarmikPatelResume.pdf"
+          target="__blank"
           clickable
           sx={{
             borderRadius: "10%",

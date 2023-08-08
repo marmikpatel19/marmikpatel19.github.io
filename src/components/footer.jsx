@@ -32,6 +32,7 @@ function Footer() {
             }}
           >
             <Link
+              target="__blank"
               href="https://github.com/marmikpatel19/marmikpatel19.github.io"
               color="inherit"
             >
@@ -50,6 +51,7 @@ function Footer() {
             component="a"
             href="https://marmikpatel19.github.io/MarmikPatelResume.pdf"
             clickable
+            target="__blank"
             sx={{
               color: "dark.main",
               borderRadius: "10%",
@@ -67,7 +69,11 @@ function Footer() {
       />
       <BottomNavigationAction
         icon={
-          <Link href="https://github.com/marmikpatel19" color="inherit">
+          <Link
+            target="__blank"
+            href="https://github.com/marmikpatel19"
+            color="inherit"
+          >
             <GitHubIcon
               sx={{
                 color: "dark.main",
@@ -88,7 +94,11 @@ function Footer() {
       />
       <BottomNavigationAction
         icon={
-          <Link href="https://linkedin.com/in/marmikp" color="inherit">
+          <Link
+            target="__blank"
+            href="https://linkedin.com/in/marmikp"
+            color="inherit"
+          >
             <LinkedInIcon
               sx={{
                 color: "dark.main",
