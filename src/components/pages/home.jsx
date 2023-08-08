@@ -27,6 +27,7 @@ function Home() {
           titleAndCompany="Software Developer Intern @ Infokidz Academy"
           timeline="May 2022 - August 2022"
           description="I engineered a web application that advertised the company's tutoring services, allowed parents to register students and contact the manager, and provided students with academic worksheets. After I deployed the website, student registration increased by 400%."
+          isBottom={true}
         />
 
         <Project />

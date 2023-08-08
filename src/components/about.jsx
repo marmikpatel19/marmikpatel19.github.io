@@ -10,6 +10,11 @@ function About() {
       sx={{
         bgcolor: "background.main",
         width: "90%",
+        marginBottom: {
+          xs: "25%",
+          sm: "15%",
+          md: "10%",
+        },
       }}
     >
       <Box

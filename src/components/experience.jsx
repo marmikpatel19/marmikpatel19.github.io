@@ -2,6 +2,14 @@ import { Typography } from "@mui/material";
 import { Box, Container } from "@mui/system";
 
 function Experience(props) {
+  const bottomMargin = props.isBottom
+    ? {
+        xs: "25%",
+        sm: "15%",
+        md: "10%",
+      }
+    : "";
+
   return (
     <Container
       id="Experience"
@@ -10,6 +18,7 @@ function Experience(props) {
       sx={{
         bgcolor: "background.main",
         width: "90%",
+        marginBottom: bottomMargin,
       }}
     >
       {props.showHeading && (
