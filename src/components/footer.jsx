@@ -1,57 +1,113 @@
-import React from "react";
-import "../styling/footer.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFileLines, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-
+import {
+  BottomNavigation,
+  BottomNavigationAction,
+  Chip,
+  Typography,
+  Link,
+} from "@mui/material";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 function Footer() {
   return (
-    <>
-      <div className="footer">
-        {/*Links/Icons*/}
-        <ul className="footer-links">
-          <a
-            className="footer-link"
-            target="_blank"
+    <BottomNavigation
+      sx={{
+        backgroundColor: "background.main",
+        borderTop: "3px solid #0d0d0d",
+        bottom: "0px",
+      }}
+    >
+      <BottomNavigationAction
+        icon={
+          <Typography
+            textAlign="left"
+            sx={{
+              color: "dark.main",
+              textTransform: "none",
+              fontSize: {
+                xs: "10px",
+                sm: "15px",
+              },
+              fontWeight: "bold",
+              textAlign: "center",
+            }}
+          >
+            <Link
+              href="https://github.com/marmikpatel19/marmikpatel19.github.io"
+              color="inherit"
+            >
+              Made by Marmik Patel © 2023
+            </Link>
+          </Typography>
+        }
+      />
+
+      <BottomNavigationAction
+        label="Nearby"
+        icon={
+          <Chip
+            label="Resume"
+            variant="outlined"
+            component="a"
             href="https://marmikpatel19.github.io/MarmikPatelResume.pdf"
-          >
-            <li className="footer-icon">
-              <FontAwesomeIcon icon={faFileLines} />
-            </li>
-          </a>
-
-          <a
-            className="footer-link"
-            target="_blank"
-            href="https://github.com/marmikpatel19"
-          >
-            <li className="footer-icon">
-              <FontAwesomeIcon icon={faGithub} />
-            </li>
-          </a>
-
-          <a
-            className="footer-link"
-            target="_blank"
-            href="https://ca.linkedin.com/in/marmikp"
-          >
-            <li className="footer-icon">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </li>
-          </a>
-
-          <a
-            className="footer-link"
-            target="_blank"
-            href="mailto:marmikpatel19[at]gmail.com"
-          >
-            <li className="footer-icon" id="email">
-              <FontAwesomeIcon icon={faEnvelope} />
-            </li>
-          </a>
-        </ul>
-      </div>
-    </>
+            clickable
+            sx={{
+              color: "dark.main",
+              borderRadius: "10%",
+              fontWeight: "bold",
+              minHeight: {
+                xs: "23px",
+                sm: "32px",
+              },
+            }}
+          />
+        }
+        sx={{
+          marginLeft: "-20px",
+        }}
+      />
+      <BottomNavigationAction
+        icon={
+          <Link href="https://github.com/marmikpatel19" color="inherit">
+            <GitHubIcon
+              sx={{
+                color: "dark.main",
+                fontSize: {
+                  xs: "27px",
+                  sm: "36px",
+                },
+              }}
+            />
+          </Link>
+        }
+        sx={{
+          marginLeft: {
+            xs: "-40px",
+            sm: "-80px",
+          },
+        }}
+      />
+      <BottomNavigationAction
+        icon={
+          <Link href="https://linkedin.com/in/marmikp" color="inherit">
+            <LinkedInIcon
+              sx={{
+                color: "dark.main",
+                fontSize: {
+                  xs: "30px",
+                  sm: "40px",
+                },
+              }}
+            />
+          </Link>
+        }
+        sx={{
+          marginLeft: {
+            xs: "-60px",
+            sm: "-80px",
+          },
+        }}
+      />
+    </BottomNavigation>
   );
 }
 
